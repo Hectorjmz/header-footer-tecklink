@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 1.8rem;
+    font-family: 'Lato', sans-serif;
+}
+.navigation{
+    background-color: #2B89EA;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    max-width: 1400px;
+    background-color: #2B89EA;
+    padding: 2rem;
+}
+.menu-content{
+    display: flex;
+    align-items: flex-end;
+    gap: 3rem;
+}
+.sub-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu img{
+    height: 5rem;
+}
+
+/* FOOTER
+--------------------------------------------------------------------------- */
+
+.top{
+    display: flex;
+    margin: 10rem auto ;
+    width: 63%;
+    justify-content: space-between;
+}
+.logo-name{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.logo-name p{
+    margin: auto 1rem;
+}
+.mission-text{
+    width: 35rem;
+}
+li{
+    list-style-type: none;
+}
+.follow-us li{
+    text-align: center;
+}
+.about-format{
+    line-height: 5.3rem;
+}
+.footer-bottom{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 63%;
+    height: 10rem;
+    align-items: center;
+    line-height: 2.2rem;
+}
+.footer-bottom p{
+    
+}
+.subscribe p{
+    color: #2B89EA;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.subscribe input{
+    border-color: #2B89EA;
+    border: 1px solid #2B89EA;
+    border-radius: .7rem;
+    height: 3rem;
+    width: 30rem;
+}
+.custom-input{
+    
+}
+.case{
+    position: relative;
+    height: 3rem;
+    width: 30rem;
+}
+.shape{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2B89EA;
+    text-align: center;
+    color: white;
+    font-size: small;
+    border-radius: 0 .7rem .7rem 0;
+    height: 3rem;
+    width: 3.8rem;
+    right: 0;
+    top: 0;
+}
+.shape span{
+    display: flex;
+}
+.terms{
+    font-size: 1.3rem;
+}
+.terms p{
+    display: flex;
+    justify-content: flex-end;
+}
+.gray{
+    color: #CACACA;
+}
+.barcode{
+    white-space:pre; /* or pre-wrap if you want wrapping to still work. */
+}
